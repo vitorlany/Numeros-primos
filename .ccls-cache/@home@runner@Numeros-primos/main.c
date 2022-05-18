@@ -4,7 +4,8 @@
 int primo(long long int num);
 
 int main(void) {
-  printf("Primo? %i\n", primo(83));
+  // Por enquanto somente numeros > 11
+  printf("Primo? %i\n", primo(11));
   return 0;
 }
 
